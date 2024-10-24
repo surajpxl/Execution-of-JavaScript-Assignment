@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variable Hoisting with Different Declarations</title>
+</head>
+<body>
+    <script>
+      {
+    console.log(letVar);  
+
+    console.log(varVar);  
+     
+    console.log(constVar);  
+
+    let letVar = 'I am let';
+    var varVar = 'I am var';
+    const constVar = 'I am const';
+
+    console.log(letVar);  
+    console.log(varVar);   
+    console.log(constVar); 
+}
+
+    </script>
+</body>
+</html>
